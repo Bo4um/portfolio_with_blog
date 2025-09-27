@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Main</a> |
+        <a href="/blog">Blog</a>
+    </nav>
+    <h1 th:text="'Здесь будет пост ' + ${id}"></h1>
+</body>
+</html>
